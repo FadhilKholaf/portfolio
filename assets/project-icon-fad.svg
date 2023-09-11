@@ -1,0 +1,33 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="70" height="70" fill="white"/>
+<path d="M55 10H5C2.79086 10 1 11.7909 1 14V44C1 46.2091 2.79086 48 5 48H55C57.2091 48 59 46.2091 59 44V14C59 11.7909 57.2091 10 55 10Z" stroke="black"/>
+<path d="M1 18.5H21.0557C21.6767 18.5 22.2892 18.3554 22.8446 18.0777L26.1554 16.4223C26.7108 16.1446 27.3233 16 27.9443 16H48" stroke="black"/>
+<circle cx="47.6602" cy="35" r="8" fill="black"/>
+<rect x="45.6602" y="25" width="4" height="20" fill="black"/>
+<rect x="57.3205" y="38.2679" width="4" height="20" transform="rotate(120 57.3205 38.2679)" fill="black"/>
+<rect x="40" y="41.7321" width="4" height="20" transform="rotate(-120 40 41.7321)" fill="black"/>
+<circle cx="47.6602" cy="35" r="5" fill="white"/>
+<rect width="11.5" height="17.5" transform="translate(5 25)" fill="white"/>
+<path d="M5 41.5L5 26C5 25.4477 5.44771 25 6 25H11.6569C11.8793 25 12.0953 25.0741 12.2708 25.2106L16.1139 28.1997C16.3575 28.3892 16.5 28.6805 16.5 28.9891V41.5C16.5 42.0523 16.0523 42.5 15.5 42.5H6C5.44772 42.5 5 42.0523 5 41.5Z" stroke="black"/>
+<line x1="7" y1="27.5" x2="12" y2="27.5" stroke="black"/>
+<line x1="7" y1="29.5" x2="15" y2="29.5" stroke="black"/>
+<line x1="7" y1="31.5" x2="15" y2="31.5" stroke="black"/>
+<rect width="11.5" height="17.5" transform="translate(10 27)" fill="white"/>
+<path d="M10 43.5L10 28C10 27.4477 10.4477 27 11 27H16.6569C16.8793 27 17.0953 27.0741 17.2708 27.2106L21.1139 30.1997C21.3575 30.3892 21.5 30.6805 21.5 30.9891V43.5C21.5 44.0523 21.0523 44.5 20.5 44.5H11C10.4477 44.5 10 44.0523 10 43.5Z" stroke="black"/>
+<line x1="12" y1="29.5" x2="17" y2="29.5" stroke="black"/>
+<line x1="12" y1="31.5" x2="20" y2="31.5" stroke="black"/>
+<line x1="12" y1="33.5" x2="20" y2="33.5" stroke="black"/>
+<path d="M4 14.4375L6.08871 16.5262L10.75 12.3125" stroke="black"/>
+<path d="M58.9976 50L3.19538 50C2.33758 50 1.87791 51.0092 2.44092 51.6563L10.2704 60.6563C10.4603 60.8747 10.7355 61 11.0248 61L67.6512 61C68.5327 61 68.983 59.9423 68.3721 59.3069L59.7184 50.3069C59.5299 50.1108 59.2696 50 58.9976 50Z" stroke="black"/>
+<rect x="24" y="57" width="23" height="3" rx="1" fill="black"/>
+<rect x="10" y="52" width="3" height="3" rx="1" fill="black"/>
+<rect x="15" y="52" width="3" height="3" rx="1" fill="black"/>
+<rect x="15" y="57" width="3" height="3" rx="1" fill="black"/>
+<rect x="20" y="57" width="3" height="3" rx="1" fill="black"/>
+<rect x="44" y="52" width="3" height="3" rx="1" fill="black"/>
+<rect x="49" y="52" width="3" height="3" rx="1" fill="black"/>
+<rect x="49" y="57" width="3" height="3" rx="1" fill="black"/>
+<rect x="54" y="57" width="3" height="3" rx="1" fill="black"/>
+<rect x="54" y="52" width="3" height="3" rx="1" fill="black"/>
+<rect x="59" y="57" width="3" height="3" rx="1" fill="black"/>
+</svg>
