@@ -25,16 +25,19 @@
             color: #000000; 
             background-color: #000000;
         }
-        #contact{
-            height: 100vh;
-        }
         .contact-card{
             border-radius: 1.5rem;
             background: linear-gradient(231deg, #583FBC -89.43%, #7DE0EA 93.34%);
             box-shadow: 40px 40px 59px 20px rgba(125, 224, 234, 0.50);
         }
+        .primary-text{
+            font-size: 4rem;
+        }
         .text{
             font-size: 2.5rem;
+        }
+        .sub-text{
+            font-size: 2rem;
         }
         .hidden{
             opacity: 0;
@@ -64,29 +67,39 @@
             height: 5.75rem;
         }
         .delay{
-            transition-delay: 200ms;
-        }
-        .about-page{
-            height: 100vh;
+            transition-delay: 250ms;
         }
         .primary-delay:nth-child(1){
-            transition-delay: 100ms;
+            transition-delay: 150ms;
         }
         .primary-delay:nth-child(2){
-            transition-delay: 200ms;
+            transition-delay: 250ms;
         }
         .primary-delay:nth-child(3){
-            transition-delay: 300ms;
+            transition-delay: 350ms;
         }
         .primary-delay:nth-child(4){
-            transition-delay: 400ms;
+            transition-delay: 450ms;
         }
-        @media screen and (min-width:768px) {
-            #contact{
-                height: 100vh;
+        @media screen and (max-width:768px) {
+            .text{
+                font-size: 1.5rem;
             }
-            .about-page{
-                height: 130vh;
+            .sub-text{
+                font-size: 1rem;
+            }
+            .primary-text{
+                font-size: 2.5rem;
+            }
+            .custom-btn{
+                width: 5.5rem; 
+                height: 2.5rem;
+            }
+            .profile-img{
+                width: 80%;
+            }
+            .img-fluid{
+                height: 100%;
             }
         }
     </style>
@@ -99,80 +112,82 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="ms-3 collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav grid gap-5 row-gap-1">
-                <li class="nav-item display-6">
+                <li class="nav-item text">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
-                <li class="nav-item display-6">
+                <li class="nav-item text">
                     <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item display-6">
+                <li class="nav-item text">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item display-6">
-                    <a href="component/on-working.html" class="custom-btn btn btn-primary fs-4" role="button">Login</a>
+                <li class="nav-item text">
+                    <a href="component/on-working.php" class="custom-btn btn btn-primary fs-4" role="button">Login</a>
                 </li>
             </ul>
         </div>
     </nav>
     <section id="home" class="vh-100 d-flex align-items-center pt-5">
         <div class="container pt-5">
-            <span class="w-auto mx-auto">
-                <img class="profile-img hidden img-fluid col-lg-6 float-lg-end mb-3 ms-lg-3" src="assets/dimasukin.jpeg" alt="profil">
+            <span class="w-auto mx-auto col-lg-6 float-lg-end mb-3 ms-lg-3 d-flex justify-content-center">
+                <img class="profile-img hidden img-fluid" src="assets/bg-profile-img.svg" alt="profil">
             </span>
             <p class="mb-5">
-                <span class="primary-delay hidden display-1">HEY!     </span>
-                <span class="primary-delay hidden display-1 fw-bold">I'm Fadhil,</span><br>
-                <span class="primary-delay hidden display-1 fw-bold">WEB     </span>
-                <span class="primary-delay hidden display-1">Developer</span><br>
-                <span class="display-6">Vocational School Student</span>
+                <span class="primary-delay hidden primary-text">HEY!     </span>
+                <span class="primary-delay hidden primary-text fw-bold">I'm Fadhil,</span><br>
+                <span class="primary-delay hidden primary-text fw-bold">WEB     </span>
+                <span class="primary-delay hidden primary-text">Developer</span><br>
+                <span class="hidden delay sub-text">Vocational School Student</span>
             </p>
-            <img class="icon-img img-fluid mb-3" src="assets/ig-icon-fad.svg" alt="instagram">
+            <a href="https://www.instagram.com/tlg69.fadhil/"><img class="icon-img img-fluid mb-3 me-3" src="assets/instagram-logo.png" alt="instagram"></a>
+            <a href="https://github.com/FadhilKholaf"><img class="icon-img img-fluid mb-3 me-3" src="assets/github-logo.png" alt="github"></a>
+            <img class="icon-img img-fluid mb-3 me-3" src="assets/linkedin-logo.png" alt="linkedin">
             <div>
-                <a href="component/on-working.html" class="custom-btn btn btn-primary fs-4" role="button">CV</a>
+                <a href="component/on-working.php" class="custom-btn btn btn-primary fs-4" role="button">CV</a>
             </div>
         </div>
     </section>
     <div class="d-flex justify-content-center">
         <hr>
     </div>
-    <section id="about" class="about-page d-flex align-items-center">
-        <div class="container pt-3">
-            <p class="display-1 fw-bold">About</p>
+    <section id="about" class="vh-100 d-flex align-items-center">
+        <div class="container">
+            <p class="primary-text fw-bold">About</p>
             <div class="card">
                 <div class="container">
                     <div class="row">
                         <div class="col col-9 order-last d-flex justify-content-end">
                             <p class="text-end">
                                 <span class="text hidden">Name</span><br>
-                                <span class="display-6 hidden delay">Muhammad Fadhil Kholaf</span>
+                                <span class="sub-text hidden delay">Muhammad Fadhil Kholaf</span>
                             </p>
                         </div>
                         <div class="col col-3 align-self-center">
-                            <img class="icon-img-about" src="assets/name-icon-flaticon.png" alt="">
+                            <img class="icon-img-about img-fluid" src="assets/name-icon-flaticon.png" alt="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col col-9">
                             <p>
                                 <span class="text hidden">Experience</span><br>
-                                <span class="display-6 hidden delay">Software engineering student</span>
+                                <span class="sub-text hidden delay">Software engineering student</span>
                             </p>
                         </div>
                         <div class="col col-3 align-self-center d-flex justify-content-end">
-                            <img class="icon-img-about" src="assets/experience-icon-flaticon.png" alt="">
+                            <img class="icon-img-about img-fluid" src="assets/experience-icon-flaticon.png" alt="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col col-9 order-last d-flex justify-content-end">
                             <p class="text-end">
                                 <span class="text hidden">Hobby</span><br>
-                                <span class="display-6 hidden delay">Programming, listening music, and designing</span>
+                                <span class="sub-text hidden delay">Programming, listening music, and designing</span>
                             </p>
                         </div>
                         <div class="col col-3 align-self-center">
-                            <img class="icon-img-about" src="assets/hobby-icon-flaticon.png" alt="">
+                            <img class="icon-img-about img-fluid" src="assets/hobby-icon-flaticon.png" alt="">
                         </div>
                     </div>
                     <div class="row">
@@ -180,34 +195,34 @@
                             <p>
                                 <span class="text hidden">Certificates</span><br>
                                 <div>
-                                    <a href="component/on-working.html" class="custom-btn btn btn-primary fs-4 hidden delay" role="button">View</a>
+                                    <a href="component/on-working.php" class="custom-btn btn btn-primary fs-4 hidden delay" role="button">View</a>
                                 </div>
                             </p>
                         </div>
                         <div class="col col-3 align-self-center d-flex justify-content-end">
-                            <img class="icon-img-about" src="assets/certificate-icon-flaticon.png" alt="">
+                            <img class="icon-img-about img-fluid" src="assets/certificate-icon-flaticon.png" alt="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col col-9 order-last d-flex justify-content-end">
                             <p class="text-end">
                                 <span class="text hidden">Project</span><br>
-                                <a href="component/on-working.html" class="custom-btn btn btn-primary fs-4 hidden delay" role="button">View</a>
+                                <a href="component/on-working.php" class="custom-btn btn btn-primary fs-4 hidden delay" role="button">View</a>
                             </p>
                         </div>
                         <div class="col col-3 align-self-center">
-                            <img class="icon-img-about" src="assets/project-icon-fad.svg" alt="">
+                            <img class="icon-img-about img-fluid" src="assets/project-icon-fad.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
     </section>
-    <div class="mt-3 mb-3 d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
         <hr>
     </div>
-    <section id="contact" class="d-flex align-items-center pt-5">
-        <div class="container pt-5 pb-5">
-            <p class="display-1 fw-bold">Contact</p>
+    <section id="contact" class="vh-100 d-flex align-items-center">
+        <div class="container">
+            <p class="primary-text fw-bold">Contact</p>
             <div class="card contact-card">
                 <form action="server/server.php" method="post">
                     <div class="container text-light">

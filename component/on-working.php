@@ -20,7 +20,7 @@
   <main>
     <div class="d-flex justify-content-center" style="margin-top: 45vh;">
         <h1>THIS PAGE IS STILL ONGOING.</h1><br>
-        <h1><a href="../index.html#home" style="text-decoration: none;">BACK TO HOME</a></h1>
+        <h1><a href="../" style="text-decoration: none;">BACK TO HOME</a></h1>
     </div>
     
   </main>
