@@ -105,7 +105,7 @@
     </style>
 </head>
 <body class="overflow-x-hidden bg-light">
-    <nav class="navbar navbar-expand-md bg-body-tertiary px-lg-5 fixed-top width-100">
+    <nav class="navbar navbar-expand-md bg-body-tertiary px-lg-5 fixed-top w-100">
         <div class="container-fluid">
             <a class="navbar-brand fw-bold text" href="#">Fadhil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
